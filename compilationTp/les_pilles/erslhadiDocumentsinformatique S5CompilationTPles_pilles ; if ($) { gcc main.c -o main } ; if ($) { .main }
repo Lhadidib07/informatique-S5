@@ -1,0 +1,17 @@
+[33mcommit 70d2be412528553e43c8f8bd0d91b6f46ae4e43e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: el-Hadi <lhadi-dib@outlook.com>
+Date:   Fri Nov 4 12:27:47 2022 +0100
+
+    j'ai remplacé nv_element->valeur = v || par strcpy( nv_ellemnt->valeur , v ) le programme fonctionne tres bien
+
+[33mcommit 4196c7fe36e9708d8aa950120ac83e6d8f5da9ad[m
+Author: el-Hadi <lhadi-dib@outlook.com>
+Date:   Tue Nov 1 17:20:48 2022 +0100
+
+    j'ai refet tous le programme il marche bien sauf la fonction afficher elle mafiche que le sommet de ma pile je sais pas pour quoi
+
+[33mcommit cc0733308588f56ae06019f57b2bb5d9df71e0f0[m
+Author: el-Hadi <lhadi-dib@outlook.com>
+Date:   Tue Nov 1 15:57:52 2022 +0100
+
+    le prog copier coller de la fiche de tp est ne marche pas

@@ -1,0 +1,49 @@
+K frappe au clavier : 0.2s 
+
+P deplacement souris : 1.1s 
+
+H changer de dispositif souris clavier :4s
+
+td ( temps dessin ) ( c'est des formuls ) 
+
+TM ( avtivité mentale ) : 1.35s
+
+Tr temps reponse 0 s 
+
+ndirou la somme ta3 ga3 les taches 
+
+----------------------------------------- 
+
+GOMS : model de discription du comportement humain 
+
+( Goal, Operation , Methode , Selection )
+
+goal : le bute , 
+
+operation : les action elementaire 
+
+methodes : les diffrentes methodes bash ndirha ( clavier ou souris )  
+
+slection : choix de la methodes en cas de conflit ( soris indspo choisie le clavier )  
+
+technique pour predire le temps d'excution d'une tache routiniére par un utilisateur sans erreur 
+
+**** avantages : 
+ 	
+	- methodes de conception compatibles avec celles des informaticiens 
+	
+	- mesurer le comrtoment de l'utilisateur 
+	- technique simple 
+	- pour comparer et predire les preformances 
+
+**** inconveniant  : 
+
+	- ne peut pas etre utlisé dans une interfaces de reconnaissance vocal ou gestuelle 
+	- impossible de prendre en compte les erreurs 
+	- il n'est pas precis 
+
+
+
+
+
+

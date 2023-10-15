@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1668618737 source:c:\users\lhadi\documents\informatique s5\compilation\tp\tp03\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+

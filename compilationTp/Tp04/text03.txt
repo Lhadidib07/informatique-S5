@@ -1,0 +1,5 @@
+select distinct age,salaire, tel 
+
+from emp
+
+where slaire >=30j000
