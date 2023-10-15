@@ -1,0 +1,75 @@
+#include<sys/types.h>
+#include<unistd.h> //pour fork()
+#include<stdio.h> //pour printf()
+#include<sys/wait.h> // pour le wait 
+#include <stdlib.h>
+#include <pthread.h> // pour les thread 
+#include <semaphore.h> // sema 
+/* pour compiler on fait gcc -o nom nom.c */ 
+
+
+
+fflush(stdout);
+ exit(0);  // pour rendre en mode zombie 
+  wait(NULL); // pour tuer 
+  
+  int main(){
+  
+  
+  
+  return 0; 
+  }
+
+/*  
+pour compiler des thread on fait ==> gcc -o exucutable nom.c -lpthread 
+
+
+
+//Fonctions correspondant au corps d’un thread(tache)
+int *etoile(pthread_t *inutilise);
+int *diese(pthread_t *inutilise);
+//Remarque:le prototype d’une tâche doit être :
+
+void *(*start_routine)(void *);
+
+int main(void){
+ pthread_t thrEtoile, thrDiese;
+ //les ID des de 2 thread
+ setbuf(stdout, NULL); // 
+ //pas de tampon sur stdout
+ printf("Je vais créer et lancer 2 threads");
+ pthread_create(&thrEtoile, NULL, etoile, NULL);
+ pthread_create(&thrDiese, NULL, diese, NULL);
+ printf("J’attends la fin des 2 threads\n");
+ pthread_join(thrEtoile, NULL);
+ pthread_join(thrDiese, NULL);
+
+
+ printf("\nLes 2 threads se sont termines\n");
+ printf("Fin du thread principal\n");
+ pthread_exit(NULL);
+return EXIT_SUCCESS;
+}
+
+int *etoile(pthread_t *inutilise){ printf("*"); ]
+
+*/
+  
+  
+  /*			LES SÉMAPHORs 
+  
+   Bibliotheque =>  #include <semaphore.h> 
+   
+   Declaration globale => sem_t  sema; 
+   
+   initialisation dans le main ==> sem_init(&sema , 0 , 1 ) 
+   
+   sem_wait(&sema);   puije acceder a la <sc> et decraimente 
+     < sc > 
+   sem_post(&sema);   incrémente vasy ( libre li ycoun f la fille d'attente )  
+   
+   
+  
+  
+  */
+  
